@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# [Live Link](https://calculator-app-102.herokuapp.com/)
+
+#### Local Setup
+
+- `git clone https://github.com/udberg/Math-Magicians.git`
+- `npm install`
+- `npm run build`
+
 ## Available Scripts
 
 In the project directory, you can run:
