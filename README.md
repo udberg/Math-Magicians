@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# [Live Link](https://calculator-app-102.herokuapp.com/)
+# [Live Link](https://infinite-wildwood-87972.herokuapp.com/)
 
 #### Local Setup
 
