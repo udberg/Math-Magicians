@@ -9,7 +9,7 @@ ReactDom.render(
         </React.StrictMode>,
         document.getElementById('root')
 );
-=======
+
 import ReactDOM from 'react-dom';
 import App from './App';
 
