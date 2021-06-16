@@ -14,7 +14,7 @@ const ButtonPanel = ({ handleClick }) => (
           <Button
             btnName={op}
             handleClick={handleClick}
-            className={'light-grey'}
+            className="light-grey"
             key={op}
           />
         ))}
@@ -29,10 +29,10 @@ const ButtonPanel = ({ handleClick }) => (
       ))}
 
       <Button
-        btnName={'.'}
+        btnName="."
         handleClick={handleClick}
-        className={'light-grey'}
-        key={'.'}
+        className="light-grey"
+        key="."
       />
     </div>
     <div className="ops-container">
@@ -40,7 +40,7 @@ const ButtonPanel = ({ handleClick }) => (
         <Button
           btnName={op}
           handleClick={handleClick}
-          className={'orange'}
+          className="orange"
           key={op}
         />
       ))}
