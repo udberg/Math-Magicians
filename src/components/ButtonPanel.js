@@ -7,49 +7,49 @@ const ops = ['/', 'x', '-', '+', '='];
 const topOps = ['AC', '+/-', '%'];
 
 const ButtonPanel = ({ handleClick }) => (
-    <div className="calculator">
-        <div className="nums-container">
-            <div className="top-btn">
-                {topOps.map((op) => (
-                    <Button
-                    btnName={op}
-                    handleClick={handleClick}
-                    className={'light-grey'}
-                    key={op}
-                    />
-                ))}
-                </div>
-                {nums.map(() => (
-                    <Button 
-                    btnName={num}
-                    handleClick={handleClick}
-                    className={`dark-grey ${num === '0' && 'big-h'}`}
-                    key={num}
-                    />
-                ))}
+  <div className="calculator">
+    <div className="nums-container">
+      <div className="top-btn">
+        {topOps.map((op) => (
+          <Button
+            btnName={op}
+            handleClick={handleClick}
+            className={'light-grey'}
+            key={op}
+          />
+        ))}
+      </div>
+      {nums.map((num) => (
+        <Button
+          btnName={num}
+          handleClick={handleClick}
+          className={`dark-grey ${num === '0' && 'big-h'}`}
+          key={num}
+        />
+      ))}
 
-                <Button
-                btnName={'.'}
-                handleClick={handleClick}
-                className={'light-grey'}
-                key={'.'}
-                />
-                </div>
-                <div className="ops-container">
-                    {ops.map((op) => (
-                        <Button 
-                        btnName={op}
-                        handleClick={handleClick}
-                        className={'orange'}
-                        key={op}
-                        />
-                    ))}
-                    </div>
-                    </div>
+      <Button
+        btnName={'.'}
+        handleClick={handleClick}
+        className={'light-grey'}
+        key={'.'}
+      />
+    </div>
+    <div className="ops-container">
+      {ops.map((op) => (
+        <Button
+          btnName={op}
+          handleClick={handleClick}
+          className={'orange'}
+          key={op}
+        />
+      ))}
+    </div>
+  </div>
 );
 
-ButtonPanel.PropTypes = {
-    handleClick: PropTypes.func,
+ButtonPanel.propTypes = {
+  handleClick: PropTypes.func,
 };
 
 export default ButtonPanel;

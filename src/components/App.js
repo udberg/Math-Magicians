@@ -4,12 +4,12 @@ import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 
 const App = () => {
-    return (
-        <React.Fragment>
-        <Display total={'0'} />
-        <ButtonPanel handleClick={(f) => f} />
-        </React.Fragment>
-    );
-}
+  return (
+    <React.Fragment>
+      <Display total={'0'} />
+      <ButtonPanel handleClick={(f) => f} />
+    </React.Fragment>
+  );
+};
 
 export default App;
