@@ -7,4 +7,8 @@ Display.propTypes = {
   total: PropTypes.string,
 };
 
+Display.defaultProps = {
+  Display: '.',
+};
+
 export default Display;
