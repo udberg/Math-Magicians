@@ -8,7 +8,7 @@ Display.propTypes = {
 };
 
 Display.defaultProps = {
-  Display: '.',
+  total: '0',
 };
 
 export default Display;
