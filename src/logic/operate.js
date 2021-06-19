@@ -33,4 +33,4 @@ switch (operator) {
 return res.toString();
 };
 
-export default operate
+export default operate;
