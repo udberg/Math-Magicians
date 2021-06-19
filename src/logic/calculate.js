@@ -15,7 +15,7 @@ if (btnName === 'AC') {
     btnName === 'x' ||
     btnName === '%'
 ) {
-    operation !next ? btnName : null;
+    operation = !next ? btnName : null;
 } else if (btnName === '+/-') {
     if (next) {
         next = next * (-1).toString();
