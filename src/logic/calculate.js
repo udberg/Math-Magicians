@@ -1,37 +1,37 @@
 import operate from './operate';
 
 const calculate = (data, btnName) => {
-    const newData = { ...data };
-    let { total, next, operation } = newData;
+  const newData = { ...data };
+  let { total, next, operation } = newData;
 
-if (btnName === 'AC') {
+  if (btnName === 'AC') {
     total = '';
     next = '';
     operation = null;
-} else if (
+  } else if (
     btnName === '+' ||
-    btnName === '_' ||
+    btnName === '-' ||
     btnName === '/' ||
     btnName === 'x' ||
     btnName === '%'
-) {
+  ) {
     operation = !next ? btnName : null;
-} else if (btnName === '+/-') {
+  } else if (btnName === '+/-') {
     if (next) {
-        next = next * (-1).toString();
+      next = next * (-1).toString();
     } else if (total) {
-        total = total * (-1).toString();
+      total = total * (-1).toString();
     }
-} else if (btnName === '=') {
+  } else if (btnName === '=') {
     total = operate(total, next, operation);
     next = '';
     operation = null;
-} else if (!operation) {
+  } else if (!operation) {
     total += btnName;
-} else {
+  } else {
     next += btnName;
-}
-return { total, next, operation }
+  }
+  return { total, next, operation };
 };
 
 export default calculate;
