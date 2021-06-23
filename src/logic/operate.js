@@ -25,7 +25,7 @@ switch (operator) {
     case '%':
         res = num1.times(num2).div(100);
         break;
-    default;
+    default:
         res = 0;
         break;
 }
