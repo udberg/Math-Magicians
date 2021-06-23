@@ -13,6 +13,7 @@ Display.propTypes = {
   total: PropTypes.string,
   next: PropTypes.string,
   operation: PropTypes.string,
+
 };
 
 export default Display;
