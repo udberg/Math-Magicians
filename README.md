@@ -31,7 +31,7 @@ Node.js
 
 ## Live Demo
 
-[Math-Magician](https://calculator-app-102.herokuapp.com/)
+[Math-Magician](https://guarded-savannah-56728.herokuapp.com/)
 
  ## Screenshot
 
