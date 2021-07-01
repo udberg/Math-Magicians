@@ -33,4 +33,4 @@ const operate = (number1, number2, operator) => {
   return res.toString();
 };
 
-export default operate
+export default operate;

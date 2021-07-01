@@ -18,9 +18,9 @@ const calculate = (data, btnName) => {
     operation = !next ? btnName : null;
   } else if (btnName === '+/-') {
     if (next) {
-      next = next * (-1).toString();
+      next = (next * -1).toString();
     } else if (total) {
-      total = total * (-1).toString();
+      total = (total * -1).toString();
     }
   } else if (btnName === '=') {
     total = operate(total, next, operation);
