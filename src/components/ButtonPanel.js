@@ -7,14 +7,14 @@ const ops = ['/', 'x', '-', '+', '='];
 const topOps = ['AC', '+/-', '%'];
 
 const ButtonPanel = ({ handleClick }) => (
-  <div className="calculator">
-    <div className="nums-container">
+  <div className="calculator " data-testid="button-panel">
+    <div className="nums-container ">
       <div className="top-btn">
         {topOps.map((op) => (
           <Button
             btnName={op}
             handleClick={handleClick}
-            className="light-grey"
+            className={'light-grey'}
             key={op}
           />
         ))}
@@ -29,10 +29,10 @@ const ButtonPanel = ({ handleClick }) => (
       ))}
 
       <Button
-        btnName="."
+        btnName={'.'}
         handleClick={handleClick}
-        className="light-grey"
-        key="."
+        className={'light-grey'}
+        key={'.'}
       />
     </div>
     <div className="ops-container">
@@ -40,7 +40,7 @@ const ButtonPanel = ({ handleClick }) => (
         <Button
           btnName={op}
           handleClick={handleClick}
-          className="orange"
+          className={'orange'}
           key={op}
         />
       ))}
@@ -49,7 +49,7 @@ const ButtonPanel = ({ handleClick }) => (
 );
 
 ButtonPanel.propTypes = {
-  handleClick: PropTypes.func.isRequired,
+  handleClick: PropTypes.func,
 };
 
 export default ButtonPanel;

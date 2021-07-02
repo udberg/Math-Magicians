@@ -16,6 +16,10 @@ Math Magicians is a React calculator built with JavaScript and JSX. This applica
 
 Node.js
 
+### Tests
+
+- Install `JestJS`
+- Run `npm test`
 
 ## Library Directory 📙
 

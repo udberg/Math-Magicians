@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render Calculator page 1`] = `
+<div
+  className="calculate__wrapper"
+>
+  <h2
+    className="centre"
+  >
+    Lets do some Math
+  </h2>
+  <div
+    className="calculator__box"
+  >
+    <div>
+      <div
+        className="display"
+        data-testid="show-panel"
+      >
+        0
+        
+        
+      </div>
+      <div
+        className="calculator "
+        data-testid="button-panel"
+      >
+        <div
+          className="nums-container "
+        >
+          <div
+            className="top-btn"
+          >
+            <button
+              className="light-grey"
+              data-testid="button"
+              onClick={[Function]}
+            >
+              AC
+            </button>
+            <button
+              className="light-grey"
+              data-testid="button"
+              onClick={[Function]}
+            >
+              +/-
+            </button>
+            <button
+              className="light-grey"
+              data-testid="button"
+              onClick={[Function]}
+            >
+              %
+            </button>
+          </div>
+          <button
+            className="dark-grey false"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            7
+          </button>
+          <button
+            className="dark-grey false"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            8
+          </button>
+          <button
+            className="dark-grey false"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            9
+          </button>
+          <button
+            className="dark-grey false"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            4
+          </button>
+          <button
+            className="dark-grey false"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            5
+          </button>
+          <button
+            className="dark-grey false"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            6
+          </button>
+          <button
+            className="dark-grey false"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            1
+          </button>
+          <button
+            className="dark-grey false"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            2
+          </button>
+          <button
+            className="dark-grey false"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            3
+          </button>
+          <button
+            className="dark-grey big-h"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            0
+          </button>
+          <button
+            className="light-grey"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            .
+          </button>
+        </div>
+        <div
+          className="ops-container"
+        >
+          <button
+            className="orange"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            /
+          </button>
+          <button
+            className="orange"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            x
+          </button>
+          <button
+            className="orange"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            -
+          </button>
+          <button
+            className="orange"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            +
+          </button>
+          <button
+            className="orange"
+            data-testid="button"
+            onClick={[Function]}
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
