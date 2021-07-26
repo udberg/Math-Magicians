@@ -35,7 +35,7 @@ Node.js
 
 ## Live Demo
 
-[Math-Magician](https://guarded-savannah-56728.herokuapp.com/)
+[Math-Magician](https://silly-goldberg-ab207f.netlify.app/)
 
  ## Screenshot
 
